@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/home/www/deploy.zjh.asia',
+    basePath: '',
     output: 'export',
     images: {
         domains:['mysite-bucket.oss-cn-wulanchabu.aliyuncs.com']
