@@ -19,7 +19,7 @@ const certArr = [
     
     { order:1, title: 'test1', color: 'orange', content: contentHello},
     { order: 2, title: 'test2', color: 'purple', content: contentIntro},
-    { order: 2, title: 'test2', color: 'yellow', content: Lanuagge},
+    // { order: 2, title: 'test2', color: 'yellow', content: Lanuagge},
 ];
 
 function SlideTitle() {

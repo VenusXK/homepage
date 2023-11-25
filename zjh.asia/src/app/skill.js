@@ -16,11 +16,11 @@ export default function Lanuagge(){
     )
     return (
         <div className='max-w-3xl text-center  m-auto'>
-            <div className="m-auto text-center">
+            {/* <div className="m-auto text-center">
                 {languageList}
-            </div>
+            </div> */}
             <div className="w-auto flex items-center  text-center m-auto text-6xl sm:text-4xl pt-6">
-                <span className='w-full font-bold text-center'>熟悉的语言</span>
+                <span className='w-full font-bold text-center'>正在考研</span>
             </div>
         </div>
         
