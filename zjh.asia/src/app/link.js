@@ -39,9 +39,9 @@ export default function Example() {
             <Popover.Button
               className={`
                 ${open ? 'text-gray-600 bg-gray-300' : 'text-gray-400 bg-gray-100'}
-                group hover:text-gray-600 inline-flex items-center rounded-xl px-3 py-2 text-base font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75`}
+                group hover:text-gray-600 inline-flex items-center rounded-xl px-3 py-2 text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75`}
             >
-              <span>更多关于我</span>
+              <span className='font-bold'>更多关于我</span>
               <ChevronDownIcon
                 className={`${open ? 'text-gray-600' : 'text-gray-300/70'}
                   ml-2 h-5 w-5 transition duration-150 ease-in-out `}

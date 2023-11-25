@@ -17,6 +17,11 @@ module.exports = {
     
   },
   theme: {
+    fontWeight: {
+      // ligth: '400',
+      // middle: '400',
+      // bold: '400',
+    },
     screens: {
       'sm': {'min': '320px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
